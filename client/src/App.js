@@ -56,7 +56,6 @@ class App extends Component {
     }
 
     if (response.status !== 200) {
-      console.log(body);
       this.setState({ response: [{ status: response.status, message: body }] });
       return;
     }
