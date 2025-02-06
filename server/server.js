@@ -1,5 +1,6 @@
 const app = require('./server-config.js');
 const routes = require('./server-routes.js');
+require("./database/connection.js")
 
 const port = process.env.PORT || 5000;
 
